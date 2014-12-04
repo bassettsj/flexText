@@ -1,0 +1,7 @@
+{
+    "name": "flexText",
+    "version": "1.0.1",
+    "dependencies": {
+        "angular": ">=1.2.0"
+    }
+}

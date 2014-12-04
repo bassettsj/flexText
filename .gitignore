@@ -36,3 +36,7 @@ Thumbs.db
 # PhpStorm .idea #
 ##################
 .idea/
+
+# Bower #
+#########
+bower_components

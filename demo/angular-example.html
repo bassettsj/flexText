@@ -1,0 +1,20 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Angular Example</title>
+        <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+        <link rel="stylesheet" type="text/css" href="../ng.style.css">
+    </head>
+    <body ng-app="exampleApp">
+        <div class="wrap">
+            <h1>Angular Example of Flex Text Directive</h1>
+            <textarea flex-text></textarea>
+        </div>
+        <script src="../bower_components/angular/angular.js"></script>
+        <script src="../ng.flextext.js"></script>
+        <script>
+            angular.module('exampleApp', ['flexText']);
+        </script>
+    </body>
+</html>
