@@ -26,10 +26,12 @@ angular.module('flexText', [])
 
                 // Listen for changes on the textarea element.
                 element.on('input propertychange keyup change', mirror);
+
                 function mirror () {
                     var value = element.val();
                     span.text(value.replace(/\r?\n/g, "\r\n"));
                 }
+                
             }
 
 
